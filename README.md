@@ -1,13 +1,6 @@
 # Example Build Movie WebApp with React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Anagram Logic
-
-In the project directory, you can run:
-
-### `yarn anagram`
-run logic anagram with example list array string
-
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />

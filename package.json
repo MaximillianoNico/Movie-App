@@ -28,6 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "anagram": "node pkg/index.js",
     "test": "jest",
     "test:coverage": "react-scripts test -- --coverage",
     "eject": "react-scripts eject"
