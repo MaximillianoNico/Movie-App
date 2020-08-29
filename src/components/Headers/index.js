@@ -6,11 +6,11 @@ import { connect } from "react-redux";
 
 const Header = props => {
   const [show, setShow] = useState(false);
-  const [searchMovie, setSearchMovie] = useState(false);
+  const [searchMovie, setSearchMovie] = useState('');
 
   const _onKeyDown = e => {
     if(e.key === 'Enter'){
-      props.search(searchMovie, 1);
+      searchMovie !== '' && props.search(searchMovie, 1);
     }
   }
   return (
